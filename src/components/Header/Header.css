@@ -1,0 +1,13 @@
+.container-header{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  background: #fff;
+}
+.links-container{
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,55 @@
+.App{
+    height: 190vh;
+    background-color: #004be50f;
+    
+}
+.wrap-cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  width: 15%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #0000001c;
+  align-items: center;
+}
+.card:hover{
+  transform: translate(5px, 10px);
+  box-shadow: 0 10px 20px rgb(83, 188, 248), 0 4px 8px rgba(54, 108, 226, 0.925);
+}
+
+.card-temperature{
+  margin-left: 30%;
+  font-size:large;
+  
+}
+@media screen and (max-width: 1260px) {
+  .App{
+    height: 190vh;
+    background-color: #004be50f;
+    
+  }
+  .wrap-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-width: 20%;
+    min-width: 40px;
+
+  }
+  .card:hover{
+    transform: translate(-5px, -10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+  }
+  
+}
